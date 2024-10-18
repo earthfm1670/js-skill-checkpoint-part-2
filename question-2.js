@@ -15,11 +15,11 @@ const students = [
 
 // ---------- Solution in function ----------------
 function totalScore(arr) {
-  return arr
+  return `Total score is ${arr
     .filter((student) => student.score > 50)
     .map((student) => student.score * 1.1)
     .reduce((acc, cur) => acc + cur)
-    .toFixed(1);
+    .toFixed(1)}`;
 }
 
-console.log(`Total score is ${totalScore(students)}`);
+console.log(totalScore(students));

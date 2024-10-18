@@ -17,6 +17,4 @@ async function getUserData() {
   } catch (error) {}
 }
 
-(async () => {
-  await getUserData();
-})();
+getUserData();

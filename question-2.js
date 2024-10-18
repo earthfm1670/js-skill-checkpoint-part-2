@@ -22,4 +22,4 @@ function totalScore(arr) {
     .toFixed(1);
 }
 
-console.log(totalScore(students));
+console.log(`Total score is ${totalScore(students)}`);
